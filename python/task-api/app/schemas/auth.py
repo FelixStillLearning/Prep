@@ -5,6 +5,6 @@ class UserCreate(BaseModel):
     password: str  
 
 class TokenOut(BaseModel):
-    acces_token: str
+    access_token: str
     token_type: str = "bearer"
 
