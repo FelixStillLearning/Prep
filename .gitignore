@@ -1,2 +1,50 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-*
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+ENV/
+.env.*
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SQL
+*.sqlite
+*.db
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
+*.bak
+*.swp
+*.swo
+.idea/
+
+# Ignore test outputs
+*.coverage
+coverage/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+/generated/prisma
+
+node_modules
+# Keep environment variables out of version control
+.env
+
+./src/generated/prisma
+
+./src/generated/prisma
