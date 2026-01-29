@@ -1,7 +1,7 @@
-fastapi 
+fastapi
 uvicorn
-sqlachemy 
-psycopg2-binary 
+sqlalchemy
+psycopg2-binary
 alembic
 passlib[bcrypt]
 python-jose

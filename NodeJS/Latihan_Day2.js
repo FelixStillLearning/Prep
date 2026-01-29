@@ -22,17 +22,11 @@ const name = 'felix';
 let location = 'bandung';
 
 location =  'jakarta'
-
 6 + 5;
 8 - 1;
 8 * 5;
 10 / 3;
-10 % 2;
-
-2 * (8+2);
-
-const a = 10;
-const b =  12;
+const =  12;
 
 console.log(a >5);
 console.log(b<10)
